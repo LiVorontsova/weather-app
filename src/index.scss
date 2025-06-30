@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'SourGummy-VariableFont';
+  src: local('SourGummy-VariableFont'), url(./fonts/SourGummy-VariableFont_wdth,wght.ttf) format('truetype');
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #60a5fa, #3b82f6);
+  justify-content: center;
+  margin: 0;
+  font-family: 'SourGummy-VariableFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
